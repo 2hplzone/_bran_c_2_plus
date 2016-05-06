@@ -65,6 +65,11 @@ void main() {
 
 			sReport[iCount] = getSchoolReport(iNo, iKor, iEng, iMath);
 			iCount++;
+
+			iNo = 0;
+			iKor = 0;
+			iEng = 0;
+			iMath = 0;
 			break;
 		case '2':
 			//전체 성적 보기
